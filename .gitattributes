@@ -1,0 +1,13 @@
+# Normaliza los finales de linea a LF dentro del repositorio, independientemente
+# del sistema donde se clone. Sin esto, un repo creado en Windows llega con CRLF
+# a quien lo abra en macOS o Linux y ensucia los diffs.
+* text=auto eol=lf
+
+# Binarios: nunca tocar.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.ttf binary
+*.otf binary
